@@ -9,6 +9,8 @@ import os
 sys.path.append(os.getcwd())
 
 from app.core.database import Base
+from app.models import User, GlucoseReading, Medication, DoctorVisit, GeneralNote
+
 from app.core.config import settings
 
 # this is the Alembic Config object, which provides
